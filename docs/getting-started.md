@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-title: "🔑 Getting Started"
+sidebar_position: 1
+title: ⚡️ Getting Started
 ---
 
-# 🔑 Getting started
+# ⚡️ Getting started
