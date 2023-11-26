@@ -138,6 +138,13 @@ blockquote {
   border-color: #fff;
 } 
 
+/* added by @mj */
+.navbar {
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(20px);
+}
+/****/
+
 .navbar__brand {
   margin-right: 0px;
 }
