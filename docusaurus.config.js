@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/vsLight");
-const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
+const lightCodeTheme = require("prism-react-renderer/themes/oneLight");
+const darkCodeTheme = require("prism-react-renderer/themes/oneDark");
 
 const organizationName = "mj-cycls";
 const projectName = "docusaurus";
