@@ -65,7 +65,7 @@ sarya.run()
 ```
 
 ### 6. Extra
-Here is another marid that just replies to the user what user wrote, like a mirror. The argument `x` in the `main` function holds the user's request to the marid.
+Here is another marid that just replies back to user what they wrote, basically a mirror:
 ```python
 from sarya import SaryaClient, UI
 
@@ -75,7 +75,7 @@ sarya=SaryaClient(name="Mirror Marid",handler="mirror",
                   description="Replies Back With the Same Message")
 
 def main(x):
-    return UI.Text(x[0]["content"])
+    return UI.Text(x[0]["content"]) # x object holds the message from Sarya
 
 sarya.run()
 ```
