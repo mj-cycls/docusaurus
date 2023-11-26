@@ -12,7 +12,10 @@ const config = {
   title: "Sarya",
   tagline: "Sarya is fastest way to ship AI apps ⚡️",
   url: `https://${organizationName}.github.io`,
-  baseUrl: `/${projectName}/`,  
+  
+  // baseUrl: `/${projectName}/`,
+  baseUrl: `/`,
+  
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
