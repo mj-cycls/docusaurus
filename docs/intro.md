@@ -1,6 +1,5 @@
 ---
-sidebar_position: 0
-slug: /
+sidebar_position: 1
 title: 🏡 Home
 hide_title: true
 ---
