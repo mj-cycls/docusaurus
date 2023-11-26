@@ -75,7 +75,7 @@ sarya = Sarya(name="Mirror Marid", handler="mirror",
               description="Replies Back With the Same Message")
 
 def main(x):
-    return UI.Text(x[0]["content"]) # x object holds the message from Sarya
+    return UI.Text(x[0]["content"]) # x object holds incoming messages
 
 sarya.run()
 ```
