@@ -86,6 +86,10 @@ const config = {
         ],
       },
       footer: {
+        logo: {
+          src: 'img/logo.svg',
+          height: 51,
+        },
         style: "light",
         links: [
           {
