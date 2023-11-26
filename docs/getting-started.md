@@ -64,7 +64,7 @@ def main(x):
 sarya.run()
 ```
 
-### 6. Another Example
+### 6. Extra
 Here is another marid that just replies to the user what user wrote, like a mirror. The argument `x` in the `main` function holds the user's request to the marid.
 ```python
 from sarya import SaryaClient, UI
