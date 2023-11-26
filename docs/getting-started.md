@@ -48,7 +48,7 @@ Sarya's marids are just regular servers. Your app/marid is published with `run()
 sarya.run()
 ```
 
-### 5. Hello World!
+### 5. Hello World! 👋
 The full example:
 ```py
 from sarya import Sarya, UI
@@ -64,7 +64,7 @@ def main(x):
 sarya.run()
 ```
 
-### 6. Extra
+### 6. Extra: Mirror 🪞
 Here is another marid that just replies back to user what they wrote, basically a mirror:
 ```py
 from sarya import Sarya, UI
