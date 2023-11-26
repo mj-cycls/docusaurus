@@ -14,12 +14,12 @@ We will refer to app and marid interchangeably.
 ### 1. Install
 
 ```sh
-pip install sarya-sdk
+pip install sarya
 ```
 
 or using poetry
 ```sh
-poetry add sarya-sdk
+poetry add sarya
 ```
 
 ### 2. Get the Sarya Client
@@ -27,12 +27,11 @@ poetry add sarya-sdk
 The developer portal generates a `SARYA-TOKEN` for each app/marid. with `SaryaClient` you need to provide the name, handler, and description of the marid:
 
 ```py
-from sarya import SaryaClient, UI
+from sarya import Sarya, UI
 
-SaryaClient.token="SARYA-TOKEN" 
+Sarya.token = "SARYA-TOKEN" 
  
-sarya=SaryaClient(name="Hello World!",handler="hello",
-                  description="Hello World! Marid")
+sarya = Sarya(name="Hello World!", handler="hello", description="Hello World! Marid")
 ```
 
 ### 3. Add the Entry Point
@@ -51,12 +50,12 @@ sarya.run()
 ### 5. Hello World!
 The full example:
 ```python
-from sarya import SaryaClient, UI
+from sarya import Sarya, UI
 
-SaryaClient.token="SARYA-TOKEN" 
+Sarya.token = "SARYA-TOKEN" 
  
-sarya=SaryaClient(name="Hello World!",handler="hello",
-                  description="Hello World! Marid")
+sarya = Sarya(name="Hello World!", handler="hello",
+              description="Hello World! Marid")
 
 def main(x):
     return UI.Text("Hello World!")
@@ -67,12 +66,12 @@ sarya.run()
 ### 6. Extra
 Here is another marid that just replies back to user what they wrote, basically a mirror:
 ```python
-from sarya import SaryaClient, UI
+from sarya import Sarya, UI
 
-SaryaClient.token="SARYA-TOKEN" 
+Sarya.token = "SARYA-TOKEN" 
  
-sarya=SaryaClient(name="Mirror Marid",handler="mirror",
-                  description="Replies Back With the Same Message")
+sarya = Sarya(name="Mirror Marid", handler="mirror",
+              description="Replies Back With the Same Message")
 
 def main(x):
     return UI.Text(x[0]["content"]) # x object holds the message from Sarya
