@@ -31,7 +31,8 @@ from sarya import Sarya, UI
 
 Sarya.token = "TOKEN" 
  
-sarya = Sarya(name="Hello World!", handler="hello", description="Hello World! Marid")
+sarya = Sarya(name="Hello World!", handler="hello",
+              description="Hello World! Marid")
 ```
 
 ### 3. Add the Entry Point
