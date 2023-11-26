@@ -2,7 +2,6 @@
 sidebar_position: 0
 title: 🏡 Home
 hide_title: true
-slug: /
 ---
 
 # Sarya
