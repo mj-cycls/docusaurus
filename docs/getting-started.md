@@ -43,13 +43,13 @@ def main(x):
 
 ### 4. Run the Server
 Sarya's marids are just regular servers. Your app/marid is published with `run()` so that Sarya calls to it with each relevant request:
-```
+```py
 sarya.run()
 ```
 
 ### 5. Hello World!
 The full example:
-```python
+```py
 from sarya import Sarya, UI
 
 Sarya.token = "SARYA-TOKEN" 
@@ -65,7 +65,7 @@ sarya.run()
 
 ### 6. Extra
 Here is another marid that just replies back to user what they wrote, basically a mirror:
-```python
+```py
 from sarya import Sarya, UI
 
 Sarya.token = "SARYA-TOKEN" 
