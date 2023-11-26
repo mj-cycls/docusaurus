@@ -40,7 +40,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           //@mj
-          routeBasePath: '/',
+          // routeBasePath: '/',
+          baseUrl: `/${projectName}/`,
           //
           
           // Please change this to your repo.
