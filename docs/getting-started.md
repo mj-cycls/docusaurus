@@ -7,7 +7,7 @@ title: ⚡️ Getting Started
 
 Sarya is a python framework for building, and publishing AI applications. It provides everything you need to transform your project into beautiful UI across multiple platforms. 
 
-in order to get started make sure you generate `SARYA-TOKEN` from the developer portal at [portal.sarya.com](https://portal.sarya.com).
+in order to get started make sure you generate `TOKEN` from the developer portal at [portal.sarya.com](https://portal.sarya.com).
 
 We will refer to app and marid interchangeably.
 
@@ -24,12 +24,12 @@ poetry add sarya
 
 ### 2. Get the Sarya Client
 
-The developer portal generates a `SARYA-TOKEN` for each app/marid. with `SaryaClient` you need to provide the name, handler, and description of the marid:
+The developer portal generates a `TOKEN` for each app/marid. with `Sarya` client you need to provide the name, handler, and description of the marid:
 
 ```py
 from sarya import Sarya, UI
 
-Sarya.token = "SARYA-TOKEN" 
+Sarya.token = "TOKEN" 
  
 sarya = Sarya(name="Hello World!", handler="hello", description="Hello World! Marid")
 ```
@@ -52,7 +52,7 @@ The full example:
 ```py
 from sarya import Sarya, UI
 
-Sarya.token = "SARYA-TOKEN" 
+Sarya.token = "TOKEN" 
  
 sarya = Sarya(name="Hello World!", handler="hello",
               description="Hello World! Marid")
@@ -68,7 +68,7 @@ Here is another marid that just replies back to user what they wrote, basically 
 ```py
 from sarya import Sarya, UI
 
-Sarya.token = "SARYA-TOKEN" 
+Sarya.token = "TOKEN" 
  
 sarya = Sarya(name="Mirror Marid", handler="mirror",
               description="Replies Back With the Same Message")
