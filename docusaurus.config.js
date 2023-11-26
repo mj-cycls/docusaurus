@@ -79,6 +79,11 @@ const config = {
           // },
           // { to: "/blog", label: "Blog", position: "left" },
           {
+            href: 'https://discord.gg/BMnaMatDC7',
+            label: 'Discord',
+            position: 'right',
+          },
+          {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "GitHub",
             position: "right",
