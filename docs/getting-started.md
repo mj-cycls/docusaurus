@@ -55,19 +55,8 @@ from sarya import SaryaClient, UI
 
 SaryaClient.token="SARYA-TOKEN" 
  
-sarya = SaryaClient(name="hello world",handler="hello",
-                    description="hello world marid")
-
-def main(x):
-    return UI.Text("Hello World!")
-
-sarya.run()
-from sarya import SaryaClient, UI
-
-SaryaClient.token="SARYA-TOKEN" 
- 
-sarya = SaryaClient(name="hello world",handler="hello",
-                    description="hello world marid")
+sarya=SaryaClient(name="hello world",handler="hello",
+                  description="hello world marid")
 
 def main(x):
     return UI.Text("Hello World!")
@@ -82,19 +71,8 @@ from sarya import SaryaClient, UI
 
 SaryaClient.token="SARYA-TOKEN" 
  
-sarya = SaryaClient(name="hello world",handler="hello",
-                    description="hello world marid")
-
-def main(x):
-    return UI.Text("Hello World!")
-
-sarya.run()
-from sarya import SaryaClient, UI
-
-SaryaClient.token="SARYA-TOKEN" 
- 
-sarya = SaryaClient(name="hello world",handler="hello",
-                    description="hello world marid")
+sarya=SaryaClient(name="Mirror Marid",handler="mirror",
+                  description="replies back with the same message")
 
 def main(x):
     return UI.Text(x[0]["content"])
