@@ -29,7 +29,7 @@ from sarya import SaryaClient, UI
 
 SaryaClient.token="SARYA-TOKEN" 
  
-sarya = SaryaClient(name="hello world",handler="hello",
+sarya=SaryaClient(name="hello world",handler="hello",
                     description="hello world marid")
 ```
 
