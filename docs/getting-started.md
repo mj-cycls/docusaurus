@@ -47,3 +47,61 @@ Sarya's marids are just regular servers. Your app/marid is published with `run()
 ```
 sarya.run()
 ```
+
+### 5. Hello World!
+The full example:
+```python
+from sarya import SaryaClient, UI
+
+SaryaClient.token="SARYA-TOKEN" 
+ 
+sarya = SaryaClient(name="hello world",handler="hello",
+                    description="hello world marid")
+
+def main(x):
+    return UI.Text("Hello World!")
+
+sarya.run()
+from sarya import SaryaClient, UI
+
+SaryaClient.token="SARYA-TOKEN" 
+ 
+sarya = SaryaClient(name="hello world",handler="hello",
+                    description="hello world marid")
+
+def main(x):
+    return UI.Text("Hello World!")
+
+sarya.run()
+```
+
+### 6. Another Example
+Here is another marid that just replies to the user what user wrote, like a mirror
+```python
+from sarya import SaryaClient, UI
+
+SaryaClient.token="SARYA-TOKEN" 
+ 
+sarya = SaryaClient(name="hello world",handler="hello",
+                    description="hello world marid")
+
+def main(x):
+    return UI.Text("Hello World!")
+
+sarya.run()
+from sarya import SaryaClient, UI
+
+SaryaClient.token="SARYA-TOKEN" 
+ 
+sarya = SaryaClient(name="hello world",handler="hello",
+                    description="hello world marid")
+
+def main(x):
+    return UI.Text(x[0]["content"])
+
+sarya.run()
+```
+
+
+
+
