@@ -55,8 +55,8 @@ from sarya import SaryaClient, UI
 
 SaryaClient.token="SARYA-TOKEN" 
  
-sarya=SaryaClient(name="hello world",handler="hello",
-                  description="hello world marid")
+sarya=SaryaClient(name="Hello World!",handler="hello",
+                  description="Hello World! Marid")
 
 def main(x):
     return UI.Text("Hello World!")
