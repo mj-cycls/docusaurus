@@ -11,7 +11,7 @@ in order to get started make sure you generate `SARYA-TOKEN` from the developer 
 
 We will refer to app and marid interchangeably.
 
-### 1. install
+### 1. Install
 
 ```sh
 pip install sarya-sdk
@@ -35,14 +35,14 @@ sarya=SaryaClient(name="Hello World!",handler="hello",
                   description="Hello World! Marid")
 ```
 
-### 3. Create the entry point
+### 3. Add the Entry Point
 The main function works as the entry point of your marid, in this example we just send "Hello World!" for each user request.
 ```py
 def main(x):
     return UI.Text("Hello World!")
 ```
 
-### 4. Run the server
+### 4. Run the Server
 Sarya's marids are just regular servers. Your app/marid is published with `run()` so that Sarya calls to it with each relevant request:
 ```
 sarya.run()
