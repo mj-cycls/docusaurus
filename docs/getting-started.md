@@ -72,7 +72,7 @@ from sarya import SaryaClient, UI
 SaryaClient.token="SARYA-TOKEN" 
  
 sarya=SaryaClient(name="Mirror Marid",handler="mirror",
-                  description="replies back with the same message")
+                  description="Replies Back With the Same Message")
 
 def main(x):
     return UI.Text(x[0]["content"])
