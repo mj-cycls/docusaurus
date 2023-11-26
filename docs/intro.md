@@ -8,7 +8,7 @@ hide_title: true
 
 **Sarya** is a python framework to build, publish, and share your AI powered apps
 
-AI apps in Sarya are referred to as 'Marids'. A [Marid](https://en.wikipedia.org/wiki/Marid) a powerful type of Jinn in Arabic folklore known for performing supernatural feats when summoned
+AI apps in Sarya are referred to as 'Marids'. A [Marid](https://en.wikipedia.org/wiki/Marid) a powerful type of Jinn in Arabic folklore known for performing supernatural feats when summoned.
 
 Sarya's features include:
 - **Bring Your Own LLM:** Flexibility in LLMs, use OpenAI or Open-source alternatives
