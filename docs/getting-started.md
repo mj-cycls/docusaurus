@@ -29,16 +29,13 @@ The developer portal generates a `TOKEN` for each app/marid. with `Sarya` client
 ```py
 from sarya import Sarya, UI
 
-Sarya.token = "TOKEN" 
- 
-sarya = Sarya(name="Hello World!", handler="hello",
-              description="Hello World! Marid")
+sarya = Sarya(token="TOKEN")
 ```
 
 ### 3. Add the Entry Point
 The main function works as the entry point of your marid, in this example we just send "Hello World!" for each user request.
 ```py
-def main(x):
+def main():
     return UI.Text("Hello World!")
 ```
 
@@ -53,12 +50,9 @@ The full example:
 ```py
 from sarya import Sarya, UI
 
-Sarya.token = "TOKEN" 
- 
-sarya = Sarya(name="Hello World!", handler="hello",
-              description="Hello World! Marid")
+sarya = Sarya(token="TOKEN")
 
-def main(x):
+def main():
     return UI.Text("Hello World!")
 
 sarya.run()
@@ -68,14 +62,11 @@ sarya.run()
 Here is another marid that just replies back to user what they wrote, basically a mirror:
 ```py
 from sarya import Sarya, UI
-
-Sarya.token = "TOKEN" 
  
-sarya = Sarya(name="Mirror Marid", handler="mirror",
-              description="Replies Back With the Same Message")
+sarya = Sarya(token="TOKEN")
 
-def main(x):
-    return UI.Text(x[0]["content"]) # x object holds incoming messages
+def main(messages):
+    return UI.Text(messages[0]["content"]) # incoming messages
 
 sarya.run()
 ```
