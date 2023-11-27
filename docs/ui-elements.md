@@ -7,19 +7,19 @@ title: 🖼️ UI Elements
 
 ### Text
 ```py
-def main(x):
+def main():
     return UI.Text("Example String")
 ```
 
 ### Image
 ```py
-def main(x):
+def main():
     return UI.Image("https://example.com/image.png")
 ```
 
 ### List
 ```py
-def main(x):
+def main():
     return [UI.Text("Example String #1"),
             UI.Text("Example String #2"),
             UI.Image("https://example.com/image.png")]
