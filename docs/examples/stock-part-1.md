@@ -56,7 +56,7 @@ def price(symbol):
 def main(messages):
     input = messages[0]["content"]
     price = stock(input)
-    return UI.Text(f"Price of {input}: {price:0.2f}")
+    return UI.Text(f"price of {input}: {price:0.2f}")
 
 sarya.run()
 ```
