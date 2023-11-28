@@ -12,7 +12,7 @@ for this example we will use the `yfinance` package to get the stock market data
 pip install yfinance
 ```
 
-Initiate the client. I had already named it `@stock-1` in the developer portal:
+Initiate the client:
 ```py
 from sarya import Sarya, UI
 import yfinance as yf
@@ -61,7 +61,7 @@ def main(messages):
 sarya.run()
 ```
 
-and if you run it:
+and if you run it (I had already named it `@stock-1` in the developer portal):
 ```
 User  | @stock-1 GOOG
 Sarya | price for GOOG: 137.57
