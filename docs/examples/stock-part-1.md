@@ -22,7 +22,7 @@ sarya = Sarya(token="TOKEN")
 
 Use `yfinance` package to fetch the stock symbol
 ```py
-def price(symbol):
+def stock(symbol):
     data = yf.download(symbol, period='1d')
     return data.Open[0]
 ```
@@ -49,7 +49,7 @@ import yfinance as yf
 
 sarya = Sarya(token="TOKEN")
 
-def price(symbol):
+def stock(symbol):
     data = yf.download(symbol, period='1d')
     return data.Open[0]
 
