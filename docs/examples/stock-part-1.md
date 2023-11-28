@@ -60,3 +60,12 @@ def main(messages):
 
 sarya.run()
 ```
+
+and if you run it:
+```
+User  | @stock GOOG
+Sarya | price for GOOG: 137.57
+
+User  | @stock TSLA
+Sarya | price for TSLA: 236.68
+```
