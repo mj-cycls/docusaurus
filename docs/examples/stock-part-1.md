@@ -61,11 +61,11 @@ def main(messages):
 sarya.run()
 ```
 
-and if you run it (I had already named it `@stock-1` in the developer portal):
+and if you run it:
 ```
-User  | @stock-1 GOOG
+User  | @marid-name GOOG
 Sarya | price for GOOG: 137.57
 
-User  | @stock-1 TSLA
+User  | TSLA
 Sarya | price for TSLA: 236.68
 ```
