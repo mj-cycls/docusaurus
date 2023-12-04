@@ -63,7 +63,7 @@ sarya.run()
 
 and if you run it:
 ```
-User  | @marid-name GOOG
+User  | @marid GOOG
 Sarya | price for GOOG: 137.57
 
 User  | TSLA
