@@ -11,8 +11,12 @@ const projectName = "docusaurus";
 const config = {
   title: "Sarya",
   tagline: "Sarya is fastest way to ship AI apps ⚡️",
-  url: `https://${organizationName}.github.io`,
-  baseUrl: `/${projectName}/`,
+  // url: `https://${organizationName}.github.io`,
+  // baseUrl: `/${projectName}/`,
+
+  url: `https://docs.sarya.com`,
+  baseUrl: `/`,
+  
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
