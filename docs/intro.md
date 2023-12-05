@@ -17,6 +17,3 @@ Sarya's features include:
 - **Share:** Easily share your Marid across social media and in your website
 - **Growth:** Access to Sarya's fast growing user base
 - **Analytics:** Track in real time user response and engagement to your Marid
-
-### How it works
-![image](./assets/how.png)
