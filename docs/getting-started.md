@@ -22,14 +22,14 @@ or using poetry
 poetry add sarya
 ```
 
-### 2. Get the Sarya Client
+### 2. Initiate Sarya Client
 
-The developer portal generates a `TOKEN` for each app/marid. with `Sarya` client you need to provide the name, handler, and description of the marid:
+With `Sarya` client you need to provide your Key from [Sarya Platform](https://platform.sarya.com):
 
 ```py
 from sarya import Sarya, UI
 
-sarya = Sarya(token="TOKEN")
+sarya = Sarya(key="<YourKey>")
 ```
 
 ### 3. Add the Entry Point
@@ -50,7 +50,7 @@ The full example:
 ```py
 from sarya import Sarya, UI
 
-sarya = Sarya(token="TOKEN")
+sarya = Sarya(key="<YourKey>")
 
 def main():
     return UI.Text("Hello World!")
@@ -63,7 +63,7 @@ Here is another marid that just replies back to user what they wrote, basically 
 ```py
 from sarya import Sarya, UI
  
-sarya = Sarya(token="TOKEN")
+sarya = Sarya(key="<YourKey>")
 
 def main(messages):
     return UI.Text(messages[0]["content"]) # incoming messages
