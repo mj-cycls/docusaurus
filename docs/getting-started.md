@@ -7,9 +7,7 @@ title: ⚡️ Getting Started
 
 Sarya is a python framework for building, and publishing AI applications. It provides everything you need to transform your project into beautiful UI across multiple platforms. 
 
-in order to get started make sure you generate `TOKEN` from the developer portal at [platform.sarya.com](https://platform.sarya.com).
-
-We will refer to app and marid interchangeably.
+in order to get started make sure you get your `SECRET-KEY` from the developer platform at [platform.sarya.com](https://platform.sarya.com).
 
 ### 1. Install
 
@@ -29,7 +27,7 @@ With `Sarya` client you need to provide your Key from [Sarya Platform](https://p
 ```py
 from sarya import Sarya, UI
 
-sarya = Sarya(key="<YourKey>")
+sarya = Sarya(key="sk-...")
 ```
 
 ### 3. Add the Entry Point
@@ -50,7 +48,7 @@ The full example:
 ```py
 from sarya import Sarya, UI
 
-sarya = Sarya(key="<YourKey>")
+sarya = Sarya(key="sk-...")
 
 def main():
     return UI.Text("Hello World!")
@@ -63,14 +61,10 @@ Here is another marid that just replies back to user what they wrote, basically 
 ```py
 from sarya import Sarya, UI
  
-sarya = Sarya(key="<YourKey>")
+sarya = Sarya(key="sk-...")
 
 def main(messages):
     return UI.Text(messages[0]["content"]) # incoming messages
 
 sarya.run()
 ```
-
-
-
-
