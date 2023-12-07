@@ -17,7 +17,7 @@ Initiate the client:
 from sarya import Sarya, UI
 import yfinance as yf
 
-sarya = Sarya(key="KEY")
+sarya = Sarya(key="sk-...")
 ```
 
 Use `yfinance` package to fetch the stock symbol
@@ -47,7 +47,7 @@ Here is the full code:
 from sarya import Sarya, UI
 import yfinance as yf
 
-sarya = Sarya(key="KEY")
+sarya = Sarya(key="sk-...")
 
 def stock(symbol):
     data = yf.download(symbol, period='1d')
