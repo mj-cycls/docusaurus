@@ -20,5 +20,3 @@ Sarya's features include:
 
 ### How it works
  ![image](./img/how.png)
- <img src="./img/how.png" width="300" style="height: auto;">
- <img src="./img/how.png" height="300" style="width: auto;">
